@@ -1,10 +1,17 @@
 image: google/dart:1.21
 
 types:
+  - analyze
   - test
   
+analyze:
+  type: analyze
+  script:
+    - pub get
+    - dartanalyzer --fatal-hints --fatal-warnings test/byte_array_test.dart
+    
 test:
   type: test
   script:
     - pub get
-    - dartanalyzer --fatal-hints --fatal-warnings test/byte_array_test.dart
+    - pub run test
