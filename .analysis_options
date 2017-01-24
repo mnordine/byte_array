@@ -1,0 +1,30 @@
+analyzer:
+  strong-mode: true
+
+linter:
+  rules:
+    - camel_case_types
+    - empty_constructor_bodies
+    - library_names
+    - super_goes_last
+    - type_init_formals
+    - slash_for_doc_comments
+    - library_prefixes
+    - constant_identifier_names
+    - one_member_abstracts
+    - unnecessary_brace_in_string_interp
+    - unnecessary_getters_setters
+    - avoid_as
+    - implementation_imports
+    - package_prefixed_library_names
+    - prefer_is_not_empty
+    - avoid_empty_else
+    - package_names
+    - camel_case_types
+    - avoid_init_to_null
+    - avoid_empty_else
+    - avoid_return_types_on_setters
+    - package_api_docs
+    - sort_constructors_first
+    - sort_unnamed_constructors_first
+    - super_goes_last
